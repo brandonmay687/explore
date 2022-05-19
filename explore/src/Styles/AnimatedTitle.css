@@ -1,0 +1,90 @@
+@keyframes dropText1 {
+    32% { top: 0; }
+    66% { top: -5rem; }
+    75% { top: 0; }
+}
+
+@keyframes dropText2 {
+    36% { top: 0; }
+    73% { top: -5rem; }
+    82% { top: 0; }
+}
+
+@keyframes dropText3 {
+    40% { top: 0; }
+    75% { top: -5rem; }
+    84% { top: 0; }
+}
+
+@keyframes dropText4 {
+    44% { top: 0; }
+    77% { top: -5rem; }
+    86% { top: 0; }
+}
+
+@keyframes dropText5 {
+    48% { top: 0; }
+    79% { top: -5rem; }
+    88% { top: 0; }
+}
+
+@keyframes dropText6 {
+    52% { top: 0; }
+    81% { top: -5rem; }
+    90% { top: 0; }
+}
+
+@keyframes dropText7 {
+    56% { top: 0; }
+    83% { top: -5rem; }
+    92% { top: 0; }
+}
+
+.e1 {
+    position: relative;
+    animation-name: dropText1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.x {
+    position: relative;
+    animation-name: dropText2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.p {
+    position: relative;
+    animation-name: dropText3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.l {
+    position: relative;
+    animation-name: dropText4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.o {
+    position: relative;
+    animation-name: dropText5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.r {
+    position: relative;
+    animation-name: dropText6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.e2 {
+    position: relative;
+    animation-name: dropText7;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

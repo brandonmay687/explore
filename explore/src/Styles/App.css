@@ -1,0 +1,234 @@
+/* Desktop/Base Styles */
+.App {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../Images//Coding-Challenge-Image.png');
+    background-size: 107% 100%;
+}
+
+.left-color {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 26.85%;
+    background-color: #611818;
+}
+
+.wrap {
+    margin-left: 38%;
+    margin-bottom: 35%;
+}
+
+.title {
+    padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21rem;
+    letter-spacing: 1rem;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 16rem;
+    margin-top: -16rem;
+    margin-left: 5rem;
+}
+
+.container h1 {
+    color: white;
+    font-weight: 400;
+}
+
+.open {
+    width: 3.5rem;
+    margin-top: 1rem;
+}
+
+.open:hover {
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: auto;
+    margin-left: auto;
+    height: 12rem;
+}
+
+.social img {
+    height: 5rem;
+}
+
+.social img:hover {
+    cursor: pointer;
+}
+
+
+.hide {
+    display: none;
+}
+
+/* Large Laptop */
+@media screen and (max-width: 1440px) {
+    
+    .left-color {
+        width: 15%;
+    }
+    
+    .wrap {
+        margin-bottom: 30rem;
+        margin-left: 10rem;
+    }
+    
+    .title {
+        padding-top: 0;
+        font-size: 10rem;
+        letter-spacing: .5rem;
+    }
+    
+    .container {
+        width: 14rem;
+        margin-top: -8rem;
+        margin-left: -3rem;
+    }
+    
+    .container h1 {
+        font-weight: 400;
+    }
+    
+    .open {
+        width: 1.75rem;
+        margin-top: .5rem;
+    }
+
+    
+    .social {
+        margin-top: 45%;
+        margin-left: 70%;
+        height: 10rem;
+    }
+    
+    .social img {
+        height: 4rem;
+    }
+    
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .wrap {
+        margin-bottom: 18rem;
+        margin-left: 7rem;
+    }
+    
+    .title {
+        padding-top: 0;
+        font-size: 6rem;
+        letter-spacing: 0;
+    }
+    
+    .container {
+        width: 11rem;
+        margin-top: -5rem;
+        margin-left: -2rem;
+    }
+    
+    .container h1 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    .open {
+        width: 1.5rem;
+        margin-top: .25rem;
+    }
+
+    
+    .social {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 45%;
+        margin-left: 60%;
+        height: 2rem;
+        width: 8rem;
+    }
+    
+    .social img {
+        height: 3rem;
+    }
+    
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .wrap {
+        margin-bottom: 38rem;
+        margin-left: 7rem;
+    }
+    
+    .title {
+        padding-top: 0;
+        font-size: 5rem;
+        letter-spacing: 0;
+    }
+    
+    .container {
+        width: 11rem;
+        margin-top: -4rem;
+        margin-left: -3rem;
+    }
+
+    
+    .social {
+        margin-top: 80vh;
+        margin-left: 50%;
+        height: 2rem;
+        width: 8rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) { 
+    .wrap {
+        margin-bottom: 35rem;
+        margin-left: 7rem;
+    }
+    
+    .title {
+        padding-top: 0;
+        font-size: 3.5rem;
+        letter-spacing: 0;
+    }
+    
+    .container {
+        width: 11rem;
+        margin-top: -3rem;
+        margin-left: -3rem;
+    }
+
+    
+    .social {
+        margin-top: 80vh;
+        margin-left: 50%;
+        height: 2rem;
+        width: 8rem;
+    }
+
+    .social img {
+        height: 2rem;
+    }
+}
+
+
+
+
+
+
+
